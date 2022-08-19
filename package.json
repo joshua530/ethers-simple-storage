@@ -1,0 +1,20 @@
+{
+  "name": "ethers-simple-storage",
+  "version": "1.0.0",
+  "description": "ethers-simple-storage",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "solcjs --bin --abi --include-path node_modules --base-path . -o compiled SimpleStorage.sol"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ethers": "^5.6.9",
+    "solc": "^0.8.7-fixed"
+  },
+  "devDependencies": {
+    "prettier-plugin-solidity": "^1.0.0-beta.24"
+  }
+}

@@ -1,0 +1,3 @@
+#!/usr/bin/bash
+
+# PRIVATE_KEY_PASSWORD=<PASSWORD HERE> node deploy

@@ -1,0 +1,7 @@
+-- compilation command --
+npx solcjs --bin --abi --include-path node_modules --base-path . -o . SimpleStorage.sol
+
+-- nonce --
+wallets => a number associated with a unique transaction
+blockchain mining => a number used to solve the hard problem
+in both contexts, a nonce is a 'Number used ONCE'
